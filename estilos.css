@@ -1,0 +1,278 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Space Mono', monospace;
+}
+
+h1 {
+    font-family: 'Space Mono' monospace, arial;
+}
+
+header,
+p,
+h2,
+h3 {
+    font-family: 'Varela Round', sans-serif, arial;
+}
+
+header {
+    height: 70px;
+    padding: 10px 20px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #440419;
+}
+
+.menu a:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.container,
+.aboutcontainer,
+.buybookcontainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container img {
+    max-width: 50%;
+    height: auto;
+    margin-left: 30px;
+    border-radius: 8px;
+}
+
+.hero-text,
+.about-text,
+.buy-text {
+    width: 50%;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 3.3rem;
+    margin-bottom: 16px;
+    color: #440419;
+}
+
+.hero-text p {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .container img {
+        max-width: 90%;
+
+    }
+}
+
+.about-text,
+.buy-text {
+    line-height: 2px;
+}
+
+
+h1 {
+    margin: 10px;
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h2 {
+    margin: 10px;
+    font-size: 2rem;
+    text-align: left;
+}
+
+h3 {
+
+    margin: 10px;
+    font-size: 20px;
+}
+
+p {
+    margin: 10px;
+    padding: 25px 20px 25px 5px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.8;
+
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    display: inline-block;
+    background: rgb(253, 217, 253);
+    color: #440419;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all 0.25s;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+button:hover {
+    border-color: #440419;
+    color: black;
+    box-shadow: 0 0.5em 0.5em -0.4em #7dff5c;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+.contact {
+    background-image: url('contacto.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-align: center;
+}
+
+.contact h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+
+#Autores li {
+    list-style: none;
+}
+
+#Autores {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: justify;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    height: 55%;
+    width: 45%;
+    margin: 10px;
+}
+
+.card:hover {
+    transform: translateY(3px)
+}
+
+.card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.card p {
+    font-size: 1em;
+}
+
+.card a {
+    text-decoration: none;
+    color: #440419;
+}
+
+.poetry,
+.essay,
+.more,
+.books ul {
+    list-style: none;
+    display: flex;
+}
+
+.poetry,
+.essay,
+.more,
+.books li {
+    margin-right: 15px;
+}
+
+
+.poetry,
+.essay,
+.more,
+.books a {
+    text-decoration: none;
+    color: #440419;
+}
+
+.poetry,
+.essay,
+.more,
+.books a:hover {
+    color: black;
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: #ffffff;
+    height: 70px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+
+    
+    align-items: center;
+    width: 100%;
+    font-size: 8px;
+    font-family: 'Space Mono' monospace, arial;
+}
+
+aside{
+    background-color: gainsboro;
+}
+
+article{
+   border: .5px solid gainsboro;
+}
+
+.galeria img {
+    max-width: 20%;
+    height: auto;
+}
